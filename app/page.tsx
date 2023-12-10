@@ -1,3 +1,9 @@
+import { Commissioner } from "next/font/google";
+
 export default function Home() {
-  return <h1>Hello next</h1>;
+  return (
+    <div>
+      <h1>Наша команда</h1>
+    </div>
+  );
 }

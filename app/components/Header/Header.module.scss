@@ -1,0 +1,21 @@
+.header {
+  margin-bottom: 50px;
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    .logo {
+      font-size: 48px;
+      font-weight: 700;
+    }
+    .list {
+      display: flex;
+      .item {
+        padding: 5px 20px;
+        border: 1px solid #383838;
+        border-radius: 50px;
+      }
+    }
+  }
+}
